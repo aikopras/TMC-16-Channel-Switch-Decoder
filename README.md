@@ -6,3 +6,11 @@ Deze DCC (Digital Command Control) decoder schakelt tot maximaal 16 relais, zoal
 
 ### 16-Kanal-DCC-Weichendecoder für 48-V-Telefonrelais
 Dieser DCC-Decoder (Digital Command Control) schaltet bis zu 16 Relais, wie sie früher in Telefonzentralen verwendet wurden. Diese Relais werden von Modellbauern noch immer häufig zum Umschalten von Weichen verwendet. Die Relais haben einen Innenwiderstand von 1000 Ohm und benötigen 48 Volt. Der Decoder wurde speziell für den Twense Modelspoorweg Club (TMC) entwickelt und verfügt daher über RJ45-Anschlüsse. Eine Besonderheit dieses Decoders ist, dass die grüne LED am Anschluss leuchtet, wenn das Relais angeschlossen ist, und die gelbe LED, wenn das Relais aktiviert ist. Die Ausgänge sind zum Zeitpunkt des Relaiswechsels gegen Kurzschluss geschützt (mit Hilfe des ADC-Wandlers wird beim Einschalten des Relais der Strom gemessen). Die [Schaltung und Platine findet man auf OSHWLab](https://oshwlab.com/aikopras/tmc-16-channel-switch-decoder_copy).
+
+#### PCB
+![Figure](Documentation/Figuren/TMC-Switch-Decoder.jpeg)
+
+![Figure](Documentation/Figuren/PCB-3D.png)
+
+#### Relais
+![Figure](Documentation/Figuren/Relais.jpeg)
